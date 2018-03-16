@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { withRouter } from 'react-router'
 import { Link } from 'react-router-dom'
 
-import Owl from 'assets/gnosis_owl.svg'
+import gnosisOwl from 'assets/gnosis_owl.svg'
 
 import { logOutAccount } from 'actions/account'
 
@@ -21,7 +21,7 @@ class Header extends Component {
     return (
       <div className='header'>
         <div className='left-header'>
-          <Owl height={30} />
+          <img src={gnosisOwl} height={30} />
         </div>
 
         <div className='right-header'>
